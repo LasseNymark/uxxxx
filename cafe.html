@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="da en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+       
+    <main id="containercafe">
+        
+        <header class="nav">
+    
+            <a href="minprofil.html"><img id="logo" src="/images/hallohostellogo.png" alt="logo"></a>
+
+            <label for="toggle">&#9776;</label>
+
+            <input type="checkbox" id="toggle"/>
+
+            <div class="menu">
+                <a href="minprofil.html">My Profile</a>
+                <a href="keycard.html">Keycard</a>
+                <a href="events.html">Events</a>
+                <a href="attractiondeals.html">Attractiondeals</a>
+                <a href="cafe.html">The Café</a>
+            </div>
+       
+        </header>  
+        
+        <section id="cafeback">
+            
+            <article id="cafetekst">
+            
+            <h1 class="h1cafe">The Café</h1>
+            
+            <section>
+            
+                <h2 class="menuoverskrifter">Drinks</h2>
+
+                <p>Sodas and spinkling water</p>
+
+                <p>Still water</p>
+
+                <p>Black Coffee</p>
+
+                <p>Black Coffee</p>
+
+                <p>Special coffee</p>
+
+                <p>Beers</p>
+                
+                <p>Drinks</p>
+
+            </section>
+                       
+            <section>
+            
+                <h2 class="menuoverskrifter">Snacks</h2>
+
+                <p>Chips</p>
+
+                <p>Chocoladebars</p>
+
+                <p>Friut</p>
+            
+            </section>
+            
+            </article>
+            
+        </section>
+        
+      <footer>Fiskergade 2, 8000 Aarhus C - Tlf: 8610 1020</footer>      
+      
+  </main>     
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script> 
+    
+$(document).ready(function(){
+
+    $("label").click(function(){
+        $(".menu").slideToggle("slow");
+    });
+    
+});
+    
+</script>
+    
+</body>
+
+</html>

@@ -1,0 +1,512 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    font-family: 'Verdana', 'Geneva', sans-serif;
+}
+
+/* ----- HEADER ---- */
+
+.nav {
+    border-bottom: 4px solid #1ac1ca;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 22px;
+    color: #000000;
+    line-height: 70px;
+    background-color: #f8ba19;
+    display: block;
+    border-bottom: 4px solid #1ac1ca;
+    margin: 0;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    width: 26px;
+    float: right;
+    display: block;
+    cursor: pointer;
+}
+
+/* Burgeren "Toggle" */
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .menu {
+    display: block;
+}
+
+/* Logo */
+
+#logo{
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+/* Alt under headeren her - Husk det første tag skal have "margin-top:+70px" */
+
+/* Farver og andet generelt */
+
+.grey{
+    background-color: #ebebeb;
+}
+
+.orange{
+    background-color: #f8ba19;
+}
+
+.green{
+    background: #1ac1ca;
+}
+
+            /* ----- MY PROFILE ---- */
+
+/* Intro */
+
+#halloxxx{
+    margin: 100px 0 20px 0;
+    width: 100%;
+}
+
+.profilh1 {
+    text-align: center;
+}
+
+.profilp{
+    padding: 0 5%;
+    text-align: justify;
+}
+
+/* Bookinginfo */
+
+.bookinginfo{
+    padding: 10px 0;
+}
+
+
+/* Check in og Out knapper */
+
+.check{
+    background-color: #f8ba19;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px auto;
+    width: 150px;
+    cursor: pointer;
+}
+
+/* Link til keycard */
+
+.keycardknap{
+    background-color: #1ac1ca;
+    color: #000;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 210px;
+    cursor: pointer;
+    border: 1px solid #1ac1ca;
+    border-radius: 105px;
+}
+
+.key{
+    padding: 5px 0 20px 0;
+    margin-top: 20px;
+
+}
+
+/* Review */
+
+#review{
+    text-align: center;
+    background-color: #f8ba19;
+    width: 50%;
+    margin: 25px auto 0;
+    padding: 2%;
+    border: 2px #f8ba19 solid;
+    border-radius: 5px;
+}
+
+#stars{
+    width: 150px;
+    margin-top: 10px;
+}
+
+#review a{
+    color: #000;
+}
+
+            /* ----- Attractions ----- */
+
+.attractionsh1{
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
+
+/* billederne med text på */
+
+.imgcontainer{
+    position: relative;
+    text-align: center;
+}
+
+.centerimg{
+    position: absolute;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 50px;
+    color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+
+.containerimg {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centeredimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px ;
+    width: 50%;
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+    font-size: 25px;
+}
+
+.imgp{
+    font-size: 10px;
+}
+
+#dealslink{
+    text-align: center;
+    text-align: none;
+}
+
+#dealslink a{
+        color: #1ac1ca;
+
+}
+
+/* Maps */
+
+iframe{
+    border: solid 3px #1ac1ca;
+    border-radius: 5px;
+}
+
+.maps{
+    background-color: #ebebeb;
+    padding: 10%;
+}
+
+            /* ----- Cafe ----- */
+
+.h1cafe{
+    text-align: center;
+    z-index: 100;
+    font-size: 25px;
+}
+
+.menuoverskrifter{
+    font-size: 18px;
+    margin: 35px 0 0 0;
+}
+
+#cafeback{
+    background-image: url(../images/cafe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: 
+}
+
+#cafetekst{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 70px 35px 0 35px;
+    padding: 15px;
+    color: #fff;
+}
+
+            /* ----- Events ----- */
+
+#containernewsfeed{
+    background: ;
+}
+
+#headevent{
+    margin-top: 70px;
+    background-image: url(../images/events.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    padding: 15% 5%;
+}
+
+#introevent{
+    background-color: rgb(26,193,202,0.85);
+    border: 1px solid rgb(26,193,202,0.85);
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+.events{
+    padding: 5%;
+}
+
+.events h2{
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+}
+
+.eventscon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: #ebebeb;
+    margin: 30px 0;
+}
+
+.eventsconorange{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: #f8ba19;
+    margin: 30px 0;
+
+}
+
+.eventscongreen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    background-color: #1ac1ca;
+    margin: 30px 0;
+
+}
+
+.flexevent {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.eventh2{
+    width: 100%;
+    text-align:center;
+    font-size: 18px
+}
+
+.flexevent p{
+    font-size: 14px;
+    text-align:center;
+}
+
+            /* ----- Keycard ----- */
+
+#containerkeycard{
+    background-color: #ebebeb;
+    
+}
+
+#keyh1{
+    margin: 70px 0 0 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.scene {
+  width: 42%;
+  height: 120px;
+  margin: 0 29%;
+  perspective: 600px;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+}
+
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 120px;
+  color: #1ac1ca;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: #f8ba19;
+    border: 1px solid #1ac1ca;
+    border-radius: 20px;
+}
+
+.card__face--back {
+  background-image: url(../images/keycard.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  transform: rotateY(180deg);
+}
+
+            /* ----- Login-side /index/ ----- */
+
+#containerflag{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.choose{
+    color: #000;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: rgba(27, 160, 172, 0.9);
+    border: 1px solid rgba(27, 160, 172, 0.9);
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.flagflex{
+    width: 33%;
+}
+
+.flag{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 40px;
+}
+
+.flag1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 80px;
+}
+
+/* Container + baggrund */
+
+#containerstartside{
+    background-image: url(../images/cafee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+/* velkommenboks */
+
+#welbox{
+    background: rgba(27, 160, 172, 0.8);
+    color: #fff;
+    margin: 30px 35px 0 35px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgba(27, 160, 172, 0.8);
+    border-radius: 20px;
+}
+
+.check2{
+    background-color: #f8ba19;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px auto;
+    width: 150px;
+    cursor: pointer;
+}
+
+.check2 a{
+    color: #000;
+    text-decoration: none;
+}
+
+#help{
+    padding: 0px;
+    margin: 0;
+}
+
+#help a{
+    color: #f8ba19;
+}
+
+            /* ---- FOOTER ---- */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5% 0;
+    font-size: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
